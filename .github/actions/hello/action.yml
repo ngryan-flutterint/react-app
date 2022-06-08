@@ -4,17 +4,14 @@ description: hellow world testing
 
 inputs:
   who-to-greet:
-    description: 'Who to greet'
+    description: "Who to greet"
     required: true
     default: Ryan
 
 outputs:
   time:
-    description: 'The time we greeted you'
+    description: "The time we greeted you"
 
 runs:
-  using: 'node16'
-  main: 'dist/index.js'
-
-
-  
+  using: "node16"
+  main: "dist/index.js"
